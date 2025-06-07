@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   background-color: #131313;
@@ -22,6 +25,7 @@ body {
 .navbar-header {
   display: flex;
   justify-content: space-between;
+  /* box-shadow: 0px 0px 10px red; */
   align-items: center;
   flex-direction: row;
   margin-top: 20px;
@@ -32,6 +36,7 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 20px auto;
+  padding: 5px;
 }
 .navbar-logo {
   cursor: pointer;
@@ -61,8 +66,13 @@ a {
   border: 2px solid #c5a063;
   padding: 8px 24px;
   border-radius: 4px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
 }
-.btn-primary {
+
+.primary-btn {
   color: #0a0a0a;
   background-color: #c5a063;
 }
@@ -78,7 +88,7 @@ a {
 }
 .hero-heading {
   font-size: 2.986rem;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 .investment {
   color: #c5a063;
@@ -95,40 +105,36 @@ a {
   line-height: 1.5;
   letter-spacing: -2px;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 .hero-paragrapgh {
-  width: 60%;
+  width: 80%;
+}
+.hero-section a {
+  margin-bottom: 8rem;
 }
 .hero-paragrapgh,
 .about-paragraph,
 .choose-us-paragraph,
 .investment-paragraph,
 .testimonal-paragrapgh,
-.cta-paragrapgh {
-  /* color: #495057; */
+.cta-paragrapgh,
+.works-paragraph {
   font-weight: 400;
-  font-size: 1rem;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
   text-align: center;
+  width: 80%;
 }
-.btn {
-  font-weight: 400;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-.primary-btn {
-  border: 2px solid violet;
-  padding: 10px 20px;
-  border-radius: 8px;
-  margin-bottom: 80px;
-}
+
+/* ----- ABOUT SECTION ----- */
 .about-us-section {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 6rem;
   text-align: center;
 }
 .about-heading {
@@ -138,11 +144,10 @@ a {
   letter-spacing: -2px;
   margin-bottom: 10px;
 }
-.about-paragraph {
-  width: 65%;
-}
+
+/* ----- CHOOSE US SECTION ----- */
 .choose-us {
-  margin-bottom: 50px;
+  margin-bottom: 10rem;
 }
 .choose-us-section {
   display: flex;
@@ -150,52 +155,63 @@ a {
   align-items: center;
   flex-direction: column;
   padding: 20px;
-
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .choose-us-heading {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -2px;
   margin-bottom: 10px;
 }
-.choose-us-paragraph {
-  width: 60%;
-}
 .why-choose-us {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   padding: 20px;
 }
 .why-choose-us section {
-  width: 30%;
-  padding: 15px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  border: 1px solid black;
+  width: 30.3%;
+  padding: 1.8rem;
+  border-radius: 10px;
+  border: 1px solid #0a0a0a;
+  box-shadow: 0px 0px 10px #0a0a0a;
 }
+.why-choose-us section svg {
+  margin: 1.2rem 0;
+  font-weight: 700;
+  margin-top: 0;
+  background-color: #c5a063;
+}
+.why-choose-us section h4 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.choose-us-card-paragraph {
+  font-size: 0.75rem;
+  margin: 10px 0;
+}
+
+/* ----- INVESTMENT PLAN SECTION ----- */
 .investment-plans {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 .investment-heading {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-size: 700;
   line-height: 1.5;
   letter-spacing: -2px;
   margin-bottom: 10px;
 }
-.investment-paragraph {
-  width: 60%;
-}
 .investment-plans-section {
-  margin-bottom: 50px;
+  margin-bottom: 10rem;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -204,23 +220,35 @@ a {
   flex-wrap: wrap;
 }
 .starter-plan {
-  padding: 20px;
-  box-shadow: 0px 0px 4px #333;
+  width: 30.3%;
+  padding: 1.8rem;
+  border-radius: 10px;
+  border: 1px solid #0a0a0a;
+  box-shadow: 0px 0px 10px #0a0a0a;
+  padding: 1.25rem;
 }
 .investment-plan-heading {
-  font-size: 0.9rem;
+  color: #ffffff;
   font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
+.starter-plan li {
+  margin: 0.7rem 0;
+}
+
+/* ----- HOW IT WORKS SECTION ----- */
 .how-it-works-heading {
   text-align: center;
-  font-size: 1.7rem;
-  font-weight: 700;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+  font-size: 700;
   line-height: 1.5;
   letter-spacing: -2px;
-  margin-bottom: 50px;
+  /* margin-bottom: 10px; */
 }
 .works-section {
-  margin-bottom: 70px;
+  margin-bottom: 10rem;
 }
 .works-section-1,
 .works-section-2 {
@@ -228,7 +256,8 @@ a {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin: 20px 0;
+  margin: 10px 0;
+  padding: 10px;
 }
 .works-container {
   display: flex;
@@ -239,68 +268,80 @@ a {
   padding: 20px;
   width: 40%;
   max-width: 600px;
+  border: 1px solid #0a0a0a;
+  box-shadow: 0px 0px 10px #0a0a0a;
 }
 .works-heading {
-  font-size: 1.2rem;
+  color: #ffffff;
   font-weight: 700;
-  line-height: 1.5;
+  text-align: left;
 }
 .works-paragraph {
-  width: 60%;
+  font-size: 0.75rem;
+  margin: 0.6rem 0;
 }
+
+/* ----- TESTIMONAL SECTION ----- */
 .testimonal-section {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3rem;
 }
 .testimonal-heading {
-  font-size: 1.7rem;
-  font-size: 700;
   line-height: 1.5;
   letter-spacing: -2px;
   margin-bottom: 10px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+.testimonal-paragrapgh {
+  margin: auto;
 }
 .testimonal-investors {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 10rem;
 }
 .testimonal-investors-section {
-  box-shadow: 0px 0px 2px black;
   overflow: hidden;
   padding: 20px;
-  margin: 0 15px;
+  margin: 0 10px;
+  border-radius: 10px;
+  border: 1px solid #0a0a0a;
+  box-shadow: 0px 0px 10px #0a0a0a;
 }
 .img {
   width: 100px;
-  object-fit: contain;
   border-radius: 50%;
-  display: inline-flex;
   margin: 10px auto;
 }
 .testimonal-investors-paragraph {
   font-weight: 400;
   font-size: 0.833rem;
-  margin: 10px 0;
-  text-align: center;
+  padding: 10px;
+  margin: auto;
 }
 .testimonal-investors-name {
-  font-size: 0.75rem;
-  margin: 5px 0;
+  font-size: 1rem;
+  margin: 10px 0 5px 0;
   font-weight: 400;
+  color: #ffffff;
 }
 .testimonal-star {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   cursor: pointer;
 }
+
+/* ---- FAQ SECTION ----- */
 .faq-heading {
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -2px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .faq-item {
   width: 70%;
@@ -309,13 +350,14 @@ a {
   align-items: center;
   flex-direction: column;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 10rem;
 }
 .faq-answer {
   display: none;
   padding: 10px;
-  background-color: #f4f4f4;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #131313;
+  background-color: #c5a063;
+  color: #0a0a0a;
   font-size: 0.8rem;
 }
 .faq-question {
@@ -324,9 +366,11 @@ a {
   align-items: center;
   cursor: pointer;
   padding: 10px;
-  background-color: #eee;
+  background-color: #131313;
+  color: #9a9a9a;
   border: none;
   width: 100%;
+  font-size: 0.9rem;
   text-align: left;
 }
 .faq-question.active + .faq-answer {
@@ -338,28 +382,33 @@ a {
 .faq-question.active .arrow {
   transform: rotate(180deg);
 }
+
+/* ----- CTA SECTION ----- */
 .cta-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 10px;
+  margin-bottom: 6rem;
 }
 .cta-heading {
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -2px;
   margin-bottom: 20px;
 }
 .cta-paragrapgh {
-  width: 70%;
   max-width: 800px;
 }
 .cta-link {
   text-decoration: none;
+  font-weight: 600;
 }
+
+/* ----- FOOTER SECTION ----- */
 .footer-section {
   display: flex;
   justify-content: space-between;
@@ -369,17 +418,41 @@ a {
   padding: 20px;
   font-size: 0.85rem;
 }
-.footer-contact-information {
-  padding: 20px;
-  line-height: 1.6;
-  margin-top: 0;
+
+.quick-links {
+  margin-top: 80px;
+}
+.footer-quick-link {
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  flex-direction: column;
+  line-height: 2;
+  margin: 0 5px;
 }
 .footer-quick-link a {
   text-decoration: none;
 }
+.icon {
+  background-color: #c5a063;
+  width: 20px;
+  border-radius: 10px;
+}
+.footer-contact-information {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  flex-direction: column;
+  line-height: 3;
+  font-size: 0.9rem;
+}
+.footer-contact-information a {
+  text-decoration: none;
+}
 .footer-newsletter-signup {
   font-weight: 400;
-  margin-bottom: 10px;
+  line-height: 2;
 }
 
 input[type="email"] {
@@ -391,18 +464,11 @@ input[type="email"] {
   border-radius: 4px;
   border: 1px solid black;
 }
-input[type="submit"] {
-  color: cadetblue;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 15px;
-  cursor: pointer;
-  font-weight: bold;
-  background-color: hsl(240, 62%, 60%);
-  border: navajowhite;
-}
+
 .footer-all-right {
-  color: red;
-  margin-left: 70px;
-  margin-bottom: 20px;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 20px 0 10px 50px;
 }
