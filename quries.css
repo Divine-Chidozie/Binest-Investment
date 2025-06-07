@@ -1,7 +1,45 @@
 /* @media (max-width: 72rem) */
+@media (max-width: 72rem) {
+  html {
+    font-size: 56.25%;
+  }
+  .navbar-header {
+    padding: 2rem;
+  }
+  .navbar-logo {
+    font-size: 3rem;
+  }
+  .navbar-header .nav-bar-container a {
+    font-size: 1.7rem;
+    margin: 0 -10px;
+  }
+  .why-choose-us section svg {
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .why-choose-us section h4 {
+    font-size: 8px;
+  }
+}
 
 /* @media (max-width: 51rem) */
+@media (max-width: 51rem) {
+  html {
+    font-size: 50%;
+  }
+}
 
 /* @media (max-width: 43rem) */
+@media (max-width: 43rem) {
+  html {
+    font-size: 43.75%;
+  }
+}
 
 /* @media (max-width: 34rem) */
+@media (max-width: 34rem) {
+  html {
+    font-size: 37.5%;
+  }
+}

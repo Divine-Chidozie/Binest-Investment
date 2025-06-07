@@ -60,7 +60,7 @@ li {
 }
 a {
   color: #9a9a9a;
-  font-size: 0.95rem !important;
+  /* font-size: 0.95rem !important; */
 }
 .btn {
   border: 2px solid #c5a063;
