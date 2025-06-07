@@ -45,4 +45,10 @@
   .container {
     overflow: hidden;
   }
+  .navbar-logo {
+    margin-left: 30px;
+  }
+  .nav-bar-container {
+    display: none;
+  }
 }
