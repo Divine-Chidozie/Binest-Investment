@@ -39,6 +39,9 @@
 
 /* @media (max-width: 34rem) */
 @media (max-width: 34rem) {
+  html {
+    font-size: 30%;
+  }
   .container {
     overflow: hidden;
   }
@@ -56,12 +59,14 @@
     /* width: 90%; */
     max-width: 90vw;
     word-break: break-word;
+    font-size: 5rem;
+    color: goldenrod;
   }
   .hero-heading .investment {
     display: inline;
   }
   .hero-paragrapgh {
-    font-size: 2.5rem;
+    font-size: 3rem;
     width: 90%;
     text-align: center;
     margin-top: 1rem;
