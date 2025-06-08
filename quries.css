@@ -45,6 +45,10 @@
   } */
 
   @media (max-width: 34rem) {
+    .container {
+      overflow: hidden;
+    }
+
     /* Show hamburger */
     .hamburger {
       display: flex;
