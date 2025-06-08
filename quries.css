@@ -46,37 +46,21 @@
     display: none;
   }
   .hero-heading {
-    /* font-size: 1.8rem; */
-    /* line-height: 1.3; */
     text-align: center;
-    margin: 25rem auto 0; /* Adjust spacing */
-    /* width: 90%; */
+    margin: 25rem auto 0;
     max-width: 90vw;
-    /* word-break: break-word; */
   }
   .hero-heading .investment {
     display: inline;
   }
   .hero-paragrapgh {
-    font-size: 3rem !important;
-    width: 90%;
+    font-size: 3rem;
+    border: 2px solid red;
+    width: 100%;
     text-align: center;
     margin-top: 1rem;
   }
   .primary-btn {
-    font-size: 3rem;
-  }
-  .about-us-section {
-    text-align: center;
-    max-width: 90vw;
-  }
-  .about-heading {
-    font-size: 4rem !important;
-    text-align: center;
-  }
-  .about-paragraph {
     font-size: 2.5rem;
-    width: auto;
-    text-align: center;
   }
 }
