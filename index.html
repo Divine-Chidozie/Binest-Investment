@@ -19,6 +19,11 @@
       <!-- HEADER -->
       <header>
         <div class="navbar-header">
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <span class="navbar-logo">BITNEST</span>
           <nav>
             <ul class="nav-bar-container">
@@ -500,22 +505,6 @@
       </footer>
     </div>
 
-    <script>
-      const faqQuestions = document.querySelectorAll(".faq-question");
-
-      faqQuestions.forEach((btn) => {
-        btn.addEventListener("click", () => {
-          // Close all answers
-          faqQuestions.forEach((otherBtn) => {
-            if (otherBtn !== btn) {
-              otherBtn.classList.remove("active");
-            }
-          });
-
-          // Toggle current answer
-          btn.classList.toggle("active");
-        });
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

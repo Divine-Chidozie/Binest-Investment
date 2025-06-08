@@ -36,31 +36,55 @@
 
 /* @media (max-width: 34rem) */
 @media (max-width: 34rem) {
-  .container {
+  /* .container {
     overflow: hidden;
   }
-  /* .navbar-logo {
-    margin-left: 30px;
-  } */
+ 
   .nav-bar-container {
     display: none;
-  }
-  .hero-heading {
-    text-align: center;
-    margin: 25rem auto 0;
-    max-width: 90vw;
-  }
-  .hero-heading .investment {
-    display: inline;
-  }
-  .hero-paragrapgh {
-    font-size: 3rem;
-    border: 2px solid red;
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
-  }
-  .primary-btn {
-    font-size: 2.5rem;
+  } */
+
+  @media (max-width: 34rem) {
+    /* Show hamburger */
+    .hamburger {
+      display: flex;
+    }
+
+    /* Hide nav by default */
+    .nav-bar-container {
+      display: none;
+      flex-direction: column;
+      background-color: #fff;
+      position: fixed;
+      top: 60px; /* adjust based on header height */
+      right: 0;
+      width: 70vw;
+      height: 100vh;
+      padding: 2rem 1rem;
+      box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+      overflow-y: auto;
+      z-index: 1000;
+    }
+
+    /* Show nav when active */
+    .nav-bar-container.active {
+      display: flex;
+    }
+
+    /* Stack nav links vertically on mobile */
+    .nav-bar-container li {
+      margin-bottom: 1.5rem;
+    }
+
+    /* Hamburger animation when active */
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
   }
 }

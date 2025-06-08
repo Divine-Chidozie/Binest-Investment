@@ -39,6 +39,27 @@ body {
   margin: 20px auto;
   padding: 5px;
 }
+/* Hamburger icon - hidden on large screens */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  position: fixed;
+  /* top: 15px;  */
+  right: 25px;
+  z-index: 1100;
+  z-index: 1100; /* on top */
+}
+.hamburger span {
+  display: block;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
 .navbar-logo {
   cursor: pointer;
   font-size: 2rem;
