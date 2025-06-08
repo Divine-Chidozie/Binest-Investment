@@ -51,4 +51,12 @@
   .nav-bar-container {
     display: none;
   }
+  .hero-heading,
+  .investment {
+    color: red;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 25rem auto 0;
+  }
 }
