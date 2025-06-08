@@ -51,12 +51,24 @@
   .nav-bar-container {
     display: none;
   }
-  .hero-heading,
+  .hero-heading {
+    /* font-size: 1.8rem; */
+    /* line-height: 1.3; */
+    text-align: center;
+    margin: 25rem auto 0; /* Adjust spacing */
+    /* width: 90%; */
+    max-width: 90vw;
+    word-break: break-word;
+  }
+  .hero-heading .investment {
+    display: inline;
+  }
+  /* .hero-heading,
   .investment {
     color: red;
     text-align: center;
     width: 100%;
     padding: 0;
     margin: 25rem auto 0;
-  }
+  } */
 }
