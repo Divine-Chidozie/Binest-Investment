@@ -58,9 +58,8 @@
     margin: 25rem auto 0; /* Adjust spacing */
     /* width: 90%; */
     max-width: 90vw;
-    word-break: break-word;
-    font-size: 5rem;
-    color: goldenrod;
+    /* word-break: break-word; */
+    font-size: 4.5rem;
   }
   .hero-heading .investment {
     display: inline;
