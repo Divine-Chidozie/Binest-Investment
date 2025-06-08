@@ -5,6 +5,7 @@
 }
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -87,7 +88,9 @@ a {
   text-align: center;
 }
 .hero-heading {
-  font-size: 2.986rem;
+  /* font-size: 2.986rem; */
+  font-size: 5rem;
+  /* font-size: 65px; */
   margin-top: 200px;
 }
 .investment {
