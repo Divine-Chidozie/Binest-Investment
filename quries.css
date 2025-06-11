@@ -152,6 +152,39 @@
     font-size: 2.5rem;
     text-align: center;
   }
+  .testimonal-investors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 1.65rem;
+  }
+  .testimonal-investors-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 10px;
+    padding: 20px;
+  }
+  .testimonal-investors-paragraph {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+  }
+  .testimonal-text-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    margin-right: 5px;
+  }
+  .testimonal-investors-name {
+    font-size: 2rem;
+  }
   .faq-heading {
     margin-top: 10rem;
   }
