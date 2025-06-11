@@ -37,9 +37,9 @@
 /* @media (max-width: 34rem) */
 @media (max-width: 34rem) {
   @media (max-width: 34rem) {
-    html {
+    /* html {
       font-size: 37.5%;
-    }
+    } */
     .container {
       overflow: hidden;
       max-width: 1200px;
