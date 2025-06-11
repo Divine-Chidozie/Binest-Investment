@@ -181,6 +181,9 @@
     flex-direction: column;
   }
   .testimonal-investors-name {
+    font-size: 2.2rem;
+  }
+  .testimonal-star {
     font-size: 2rem;
   }
   .faq-heading {
