@@ -111,5 +111,7 @@
   }
   .hero-paragrapgh {
     font-size: 2rem;
+    width: 90%;
+    text-align: center;
   }
 }
