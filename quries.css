@@ -133,4 +133,41 @@
     font-size: 2.5rem;
     text-align: center;
   }
+  .how-it-works-heading {
+    font-size: 4rem;
+  }
+  .testimonal-section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .testimonal-heading {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .testimonal-paragrapgh {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .faq-heading {
+    margin-top: 10rem;
+  }
+  .faq-heading {
+    font-size: 4rem;
+  }
+  .cta-section {
+    margin-top: 10rem;
+  }
+  .cta-heading {
+    font-size: 3.8rem;
+  }
+  .cta-paragrapgh {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .cta-section a {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
 }
