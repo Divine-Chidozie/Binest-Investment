@@ -100,6 +100,9 @@
   .primary-btn {
     font-size: 2rem;
   }
+  .hero-section .primary-btn {
+    font-size: 2.5rem;
+  }
   .about-us-section {
     margin-top: 8rem;
   }
