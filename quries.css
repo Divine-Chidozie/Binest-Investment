@@ -37,24 +37,18 @@
 /* @media (max-width: 34rem) */
 @media (max-width: 34rem) {
   @media (max-width: 34rem) {
+    html {
+      font-size: 37.5%;
+    }
     .container {
       overflow: hidden;
       max-width: 1200px;
       width: 90%;
       margin: 0 auto;
-      font-size: 37.5%;
     }
-
-    /* html {
-      font-size: 37.5%;
-    } */
-
-    /* Show hamburger */
     .hamburger {
       display: flex;
     }
-
-    /* Hide nav by default */
     .nav-bar-container {
       display: none;
       flex-direction: column;
@@ -69,18 +63,12 @@
       overflow-y: auto;
       z-index: 1000;
     }
-
-    /* Show nav when active */
     .nav-bar-container.active {
       display: flex;
     }
-
-    /* Stack nav links vertically on mobile */
     .nav-bar-container li {
       margin-bottom: 1.5rem;
     }
-
-    /* Hamburger animation when active */
     .hamburger.active span:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
     }
@@ -104,12 +92,7 @@
     font-size: 5rem;
     font-weight: 500;
   }
-  .hero-paragrapgh {
-    font-size: 2.5rem;
-    width: 90%;
-    text-align: center;
-  }
   .primary-btn {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
