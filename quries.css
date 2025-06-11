@@ -48,7 +48,6 @@
     }
     .hamburger {
       display: flex;
-      background-color: #c5a063;
     }
     .nav-bar-container {
       display: none;
