@@ -207,4 +207,38 @@
     font-size: 2.5rem;
     font-weight: 500;
   }
+  .faq-section {
+    margin-top: 6rem;
+  }
+  .faq-question {
+    font-size: 2.5rem;
+  }
+  .faq-answer {
+    font-size: 1.5rem;
+  }
+  .links {
+    margin-top: -5rem;
+    font-size: 1.5rem;
+  }
+  .footer-contact-information {
+    font-size: 1.5rem;
+    line-height: 2;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .footer-contact-information {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .newsletter {
+    margin-top: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: -50rem; */
+    flex-direction: column;
+  }
 }
