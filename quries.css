@@ -164,7 +164,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 10px;
     padding: 20px;
   }
@@ -179,8 +179,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2px;
-    margin-right: 5px;
   }
   .testimonal-investors-name {
     font-size: 2rem;
