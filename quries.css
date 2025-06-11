@@ -122,4 +122,15 @@
     font-size: 2.5rem;
     text-align: center;
   }
+  .investment-plans {
+    margin-top: 8rem;
+  }
+  .investment-heading {
+    font-size: 4rem;
+  }
+  .investment-paragraph {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
 }
