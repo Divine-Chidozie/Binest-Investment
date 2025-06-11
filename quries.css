@@ -36,24 +36,19 @@
 
 /* @media (max-width: 34rem) */
 @media (max-width: 34rem) {
-  /* .container {
-    overflow: hidden;
-  }
- 
-  .nav-bar-container {
-    display: none;
-  } */
-
   @media (max-width: 34rem) {
     .container {
       overflow: hidden;
       max-width: 1200px;
       width: 90%;
       margin: 0 auto;
-    }
-    html {
       font-size: 37.5%;
     }
+
+    /* html {
+      font-size: 37.5%;
+    } */
+
     /* Show hamburger */
     .hamburger {
       display: flex;
@@ -110,8 +105,11 @@
     font-weight: 500;
   }
   .hero-paragrapgh {
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 90%;
     text-align: center;
+  }
+  .primary-btn {
+    font-size: 2rem;
   }
 }
