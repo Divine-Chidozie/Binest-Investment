@@ -63,10 +63,8 @@
     .nav-bar-container {
       display: none;
       flex-direction: column;
-      /* background-color: #fff; */
       background-color: #131313;
-      /* border: 2px solid red; */
-
+      font-size: 4rem;
       position: fixed;
       top: 60px;
       right: 0;
@@ -105,7 +103,6 @@
   }
   .nav-bar-container a {
     color: #ffffff;
-    font-size: 7rem;
   }
   .nav-bar-container .primary-btn {
     color: #0a0a0a;
