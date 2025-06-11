@@ -93,11 +93,19 @@
     font-weight: 500;
   }
   .hero-paragrapgh {
-    width: 95%;
+    width: 100%;
     font-size: 2.5rem;
     text-align: center;
   }
   .primary-btn {
     font-size: 2rem;
+  }
+  .about-heading {
+    font-size: 4rem;
+  }
+  .about-paragraph {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
   }
 }
