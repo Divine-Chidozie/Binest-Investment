@@ -51,7 +51,9 @@
       width: 90%;
       margin: 0 auto;
     }
-
+    html {
+      font-size: 37.5%;
+    }
     /* Show hamburger */
     .hamburger {
       display: flex;
