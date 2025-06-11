@@ -63,12 +63,15 @@
     .nav-bar-container {
       display: none;
       flex-direction: column;
-      background-color: #fff;
+      /* background-color: #fff; */
+      background-color: #131313;
+      /* border: 2px solid red; */
+
       position: fixed;
-      top: 60px; /* adjust based on header height */
+      top: 60px;
       right: 0;
       width: 70vw;
-      height: 100vh;
+      height: 50vh;
       padding: 2rem 1rem;
       box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
       overflow-y: auto;
@@ -95,5 +98,16 @@
     .hamburger.active span:nth-child(3) {
       transform: rotate(-45deg) translate(5px, -5px);
     }
+  }
+  .navbar-logo {
+    color: red;
+    font-size: 4rem;
+  }
+  .nav-bar-container a {
+    color: #ffffff;
+    font-size: 7rem;
+  }
+  .nav-bar-container .primary-btn {
+    color: #0a0a0a;
   }
 }
