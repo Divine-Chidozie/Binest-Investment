@@ -21,3 +21,9 @@ faqQuestions.forEach((btn) => {
     btn.classList.toggle("active");
   });
 });
+
+document
+  .getElementById("get-started-btn")
+  .addEventListener("click", function () {
+    alert("🚧 This feature is still under development. Stay tuned!");
+  });
