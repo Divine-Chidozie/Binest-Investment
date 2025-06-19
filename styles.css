@@ -64,7 +64,8 @@ body {
   cursor: pointer;
   font-size: 2rem;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 .nav-bar-container {
   display: flex;
@@ -78,7 +79,7 @@ li {
 }
 .nav-bar-container a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 a {
   color: #9a9a9a;
