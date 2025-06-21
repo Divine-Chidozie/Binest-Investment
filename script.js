@@ -1,5 +1,6 @@
 const hamburger = document.getElementById("hamburger");
 const navBar = document.querySelector(".nav-bar-container");
+const ctaButton = document.getElementById("cta-btn");
 
 hamburger.addEventListener("click", () => {
   navBar.classList.toggle("active");
@@ -27,3 +28,9 @@ document
   .addEventListener("click", function () {
     alert("🚧 This feature is still under development. Stay tuned!");
   });
+ctaButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  console.log(
+    "Investment dashboard in progress... subscribe for more information"
+  );
+});
