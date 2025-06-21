@@ -26,18 +26,19 @@ body {
 .navbar-header {
   display: flex;
   justify-content: space-between;
-  /* box-shadow: 0px 0px 10px red; */
   align-items: center;
   flex-direction: row;
-  margin-top: 20px;
   position: fixed;
   left: 0;
   right: 0;
   z-index: 1000;
   max-width: 1200px;
   width: 100%;
-  margin: 20px auto;
-  padding: 5px;
+  margin: auto;
+  padding: 10px;
+  height: 12vh;
+  background-color: #131313;
+  margin-top: 0;
 }
 /* Hamburger icon - hidden on large screens */
 .hamburger {
@@ -85,20 +86,6 @@ a {
   color: #9a9a9a;
   /* font-size: 0.95rem !important; */
 }
-.btn {
-  border: 2px solid #c5a063;
-  padding: 8px 24px;
-  border-radius: 4px;
-  font-weight: 400;
-  font-size: 1.2rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.primary-btn {
-  color: #0a0a0a;
-  background-color: #c5a063;
-}
 
 /* ----- Hero section ----- */
 
@@ -110,14 +97,15 @@ a {
   text-align: center;
 }
 .hero-heading {
-  /* font-size: 2.986rem; */
   font-size: 5rem;
-  /* font-size: 65px; */
   margin-top: 200px;
 }
 .investment {
   color: #c5a063;
 }
+
+/* ----- COMPONENT ----- */
+
 .hero-heading,
 .about-heading,
 .choose-us-heading,
@@ -132,12 +120,7 @@ a {
   margin-bottom: 10px;
   color: #ffffff;
 }
-.hero-paragrapgh {
-  width: 80%;
-}
-.hero-section a {
-  margin-bottom: 8rem;
-}
+
 .hero-paragrapgh,
 .about-paragraph,
 .choose-us-paragraph,
@@ -146,10 +129,30 @@ a {
 .cta-paragrapgh,
 .works-paragraph {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 15px;
   text-align: center;
   width: 80%;
+}
+.btn {
+  border: 2px solid #c5a063;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary-btn {
+  color: #0a0a0a;
+  background-color: #c5a063;
+}
+.hero-paragrapgh {
+  width: 80%;
+}
+.hero-section a {
+  margin-bottom: 8rem;
 }
 
 /* ----- ABOUT SECTION ----- */
@@ -164,7 +167,7 @@ a {
 }
 .about-heading {
   font-weight: 700;
-  font-size: 2.488rem;
+  font-size: 2.8rem;
   line-height: 1.5;
   letter-spacing: -2px;
   margin-bottom: 10px;
@@ -183,7 +186,7 @@ a {
   margin-bottom: 2rem;
 }
 .choose-us-heading {
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -2px;
@@ -209,14 +212,17 @@ a {
   font-weight: 700;
   margin-top: 0;
   background-color: #c5a063;
+  width: 40px;
+  height: inherit;
 }
 .why-choose-us section h4 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  font-size: 1.4rem;
 }
 .choose-us-card-paragraph {
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   margin: 10px 0;
 }
 
@@ -229,7 +235,7 @@ a {
   margin-bottom: 2rem;
 }
 .investment-heading {
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-size: 700;
   line-height: 1.5;
   letter-spacing: -2px;
@@ -266,7 +272,7 @@ a {
 .how-it-works-heading {
   text-align: center;
   margin-bottom: 50px;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-size: 700;
   line-height: 1.5;
   letter-spacing: -2px;
@@ -314,10 +320,9 @@ a {
 .testimonal-heading {
   line-height: 1.5;
   letter-spacing: -2px;
-  margin-bottom: 10px;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
 }
 .testimonal-paragrapgh {
   margin: auto;
@@ -362,7 +367,7 @@ a {
 /* ---- FAQ SECTION ----- */
 .faq-heading {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -2px;
@@ -419,7 +424,7 @@ a {
 }
 .cta-heading {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -2px;
