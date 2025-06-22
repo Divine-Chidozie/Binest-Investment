@@ -233,6 +233,7 @@ a {
   align-items: center;
   flex-direction: column;
   margin-bottom: 2rem;
+  padding: 15px;
 }
 .investment-heading {
   font-size: 2.8rem;
@@ -263,9 +264,11 @@ a {
   font-weight: 700;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  font-size: 1.5rem;
 }
 .starter-plan li {
   margin: 0.7rem 0;
+  font-size: 1.3rem;
 }
 
 /* ----- HOW IT WORKS SECTION ----- */
@@ -288,7 +291,7 @@ a {
   align-items: center;
   gap: 15px;
   margin: 10px 0;
-  padding: 10px;
+  padding: 15px;
 }
 .works-container {
   display: flex;
@@ -304,11 +307,12 @@ a {
 }
 .works-heading {
   color: #ffffff;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: left;
 }
 .works-paragraph {
-  font-size: 0.75rem;
+  font-size: 1.3rem;
   margin: 0.6rem 0;
 }
 
@@ -352,15 +356,16 @@ a {
   font-size: 0.833rem;
   padding: 10px;
   margin: auto;
+  font-size: 1.3rem;
 }
 .testimonal-investors-name {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 10px 0 5px 0;
   font-weight: 400;
   color: #ffffff;
 }
 .testimonal-star {
-  font-size: 0.8rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -384,11 +389,12 @@ a {
 }
 .faq-answer {
   display: none;
-  padding: 10px;
+  padding: 15px;
   border-top: 1px solid #131313;
   background-color: #c5a063;
-  color: #0a0a0a;
-  font-size: 0.8rem;
+  border: 1px solid #c5a063;
+  color: #ffffff;
+  font-size: 1.3rem;
 }
 .faq-question {
   display: flex;
@@ -400,7 +406,7 @@ a {
   color: #9a9a9a;
   border: none;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   text-align: left;
 }
 .faq-question.active + .faq-answer {
@@ -446,7 +452,7 @@ a {
   gap: 10px;
   margin: 0 20px;
   padding: 20px;
-  font-size: 0.85rem;
+  font-size: 1.4rem;
 }
 
 .quick-links {
@@ -472,10 +478,13 @@ a {
   padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: self-start;
+  align-items: start;
   flex-direction: column;
-  line-height: 3;
-  font-size: 0.9rem;
+  line-height: 2;
+  font-size: 1.4rem;
+}
+.footer-contact-information-icon {
+  margin-top: 50px;
 }
 .footer-contact-information a {
   text-decoration: none;
@@ -496,9 +505,9 @@ input[type="email"] {
 }
 
 .footer-all-right {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: left;
   align-items: center;
-  margin: 20px 0 10px 50px;
+  margin: 20px 0 20px 50px;
 }
