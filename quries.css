@@ -133,11 +133,11 @@
     flex-direction: column;
   }
   .why-choose-us section h4 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
   }
   .why-choose-us section p {
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: center;
   }
   .investment-plans {
@@ -176,10 +176,10 @@
     width: 100%;
   }
   .works-heading {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .works-paragraph {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   .testimonal-section {
     margin-top: 10rem;
@@ -295,9 +295,9 @@
     width: 100%;
   }
   .investment-plan-heading {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .starter-plan li {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 }
