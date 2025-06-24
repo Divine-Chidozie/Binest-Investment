@@ -243,4 +243,24 @@
   .choose-us-subheading {
     color: blue;
   }
+  .investment-plans-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .starter-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .investment-plan-heading {
+    font-size: 2rem;
+  }
+  .starter-plan li {
+    font-size: 1.5rem;
+    text-align: left;
+  }
 }
