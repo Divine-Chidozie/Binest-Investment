@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Login Form</title>
   </head>
   <body>
@@ -20,21 +21,26 @@
           <label for="username">Username:</label> <br />
           <input id="username" type="text" name="username" />
         </div>
+        <span class="username-error" id="username-error"></span>
         <div class="password-container">
           <label for="password"> Password:</label> <br />
           <input id="password" type="password" name="username" />
         </div>
+        <span class="password-error" id="password-error"></span>
         <div class="checkbox-container">
           <label for="checkbox">
             <input id="checkbox" type="checkbox" name="checkbox" />
             Forgot Password?
           </label>
         </div>
+        <span class="checkbox-error"></span>
         <div class="login-container">
           <input type="submit" value="Login" />
         </div>
       </form>
       <p>not a member? <a href="">Sign up</a></p>
     </div>
+
+    <script src="login.js"></script>
   </body>
 </html>

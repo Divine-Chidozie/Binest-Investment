@@ -24,8 +24,8 @@ body {
   flex-direction: column;
   width: 100%;
   border-radius: 10px;
-  border: 2px solid #131313;
-  box-shadow: 0px 0px 10px #c5a063;
+  border: 2px solid #0a0a0a;
+  box-shadow: 0px 0px 10px #0a0a0a;
 }
 .form-heading {
   margin: 20px 0;
@@ -75,4 +75,12 @@ a:visited,
 a:active,
 a:link {
   color: rgb(32, 32, 215);
+}
+.username-error,
+.password-error,
+.checkbox-error {
+  color: red;
+  display: block;
+  font-size: 13px;
+  margin-top: -5px;
 }
