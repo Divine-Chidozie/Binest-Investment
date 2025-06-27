@@ -1,20 +1,21 @@
 /* Desktop */
 @media (max-width: 1440px) {
   .container {
-    background-color: red;
+    width: 100vw;
   }
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
   .container {
-    background-color: blue;
+    width: 100vw;
   }
 }
 
 /* Phone */
 @media (max-width: 600px) {
   .container {
-    background-color: blueviolet;
+    color: black;
+    width: 100vw;
   }
 }

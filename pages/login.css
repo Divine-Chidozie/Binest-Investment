@@ -39,6 +39,12 @@ body {
 .login-container {
   margin: 10px 0;
 }
+.password-container {
+  margin: 20px 0;
+}
+.login-container {
+  margin-top: 10px;
+}
 label {
   line-height: 1.5;
   font-size: 0.9rem;
@@ -48,8 +54,6 @@ input {
   padding-left: 8px;
   font-size: 1rem;
   outline: none;
-
-  /* border-radius: 4px; */
 }
 input[type="submit"] {
   padding: 8px 24px;
