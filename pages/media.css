@@ -15,7 +15,6 @@
 /* Phone */
 @media (max-width: 600px) {
   .container {
-    background-color: green;
-    width: 100vw;
+    width: 90vw;
   }
 }
